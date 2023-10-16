@@ -7,9 +7,24 @@
  <link href="https://cdn.jsdelivr.net/npm/daisyui@3.9.2/dist/full.css" rel="stylesheet" type="text/css" />
  <script src="https://cdn.tailwindcss.com"></script>
  <title>Rasti</title>
+ <style>
+  body {
+        background-image: url('images/random.jpg');
+        background-attachment:fixed;
+      }
+
+      header {
+        background: rgba(255,255,255, 0.5);
+      }
+
+      article {
+        background-color: rgba(255, 255, 255, 0.5);
+        backdrop-filter: blur(10px);
+        padding: 1rem;
+      }
+ </style>
 </head>
 <body>
- <div data-theme="random.jpg">
 <div class="hero min-h-screen bg-base-200">
   <div class="hero-content flex-col lg:flex-row">
     <img src="kucing.jpg" />
@@ -17,7 +32,6 @@
       <h1 class="text-5xl font-bold">rastiaulia</h1>
       <p class="py-6">saya sangat menyukai hal random</p>
       <button class="btn btn-primary">INSTAGRAM</button>
-    </div>
     </div>
   </div>
 </div>
